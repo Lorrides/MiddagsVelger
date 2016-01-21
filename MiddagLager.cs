@@ -8,8 +8,6 @@ namespace MiddagsVelger
 {
     class MiddagLager
     {
-
-        
         public Random Tilfeldig;
 
         string[] Middag = { "Taco", "Lasagne", "Kyllingsalat", "Kylling i creme fraiche", "Skinkesteik", "Biff og fløtegratinertepoteter", "Salat" };
@@ -25,13 +23,5 @@ namespace MiddagsVelger
             return tilfeldigMiddag + " med " + tilfeldigTilbehør + " og " +  tilfeldigDrikke;
             
         }
-
-        public string SettMiddag()
-        {
-           
-
-            return null;
-        }
-
     }
 }

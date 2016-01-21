@@ -17,13 +17,11 @@ namespace MiddagsVelger
         public Form1()
         {
             InitializeComponent();
-            label1.Text = meny.GetMenuItem();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            label1.Text = meny.GetMenuItem();
         }
 
         private void button1_Click(object sender, EventArgs e)
