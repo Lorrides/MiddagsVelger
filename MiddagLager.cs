@@ -13,8 +13,8 @@ namespace MiddagsVelger
         public Random Tilfeldig;
 
         string[] Middag = { "Taco", "Lasagne", "Kyllingsalat", "Kylling i creme fraiche", "Skinkesteik", "Biff og fløtegratinertepoteter", "Salat" };
-        string[] Tilbehør = { "Rundstykker", "Brød", "Pasta", "Salat", "Ost", "noe2 ", "noe3 " };
-        string[] Drikke = { "Cola", "Vin", "Vann", "Fanta", "Solo", "Agurkvann", "Øl" };
+        string[] Tilbehør = { "rundstykker", "brød", "pasta", "salat", "ost", "muffins!", "ertestuing" };
+        string[] Drikke = { "Cola", "vin", "vann", "fanta", "solo", "agurkvann", "øl" };
 
         public string GetMenuItem()
         {
