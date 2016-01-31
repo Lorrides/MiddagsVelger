@@ -10,9 +10,9 @@ namespace MiddagsVelger
     {
         public Random Tilfeldig;
 
-        string[] Middag = { "Taco", "Lasagne", "Kyllingsalat", "Kylling i creme fraiche", "Skinkesteik", "Biff og fløtegratinertepoteter", "Salat" };
-        string[] Tilbehør = { "rundstykker", "brød", "pasta", "salat", "ost", "muffins!", "ertestuing" };
-        string[] Drikke = { "Cola", "vin", "vann", "fanta", "solo", "agurkvann", "øl" };
+        string[] Middag = { "Taco", "Lasagne", "Kyllingsalat", "Kylling i creme fraiche", "Skinkesteik", "Biff og fløtegratinertepoteter", "Torsk" ,"Laks" };
+        string[] Tilbehør = { "rundstykker", "brød", "pasta", "salat", "ost", "muffins!", "ertestuing" , "poteter" , "pomesfrites" };
+        string[] Drikke = { "Cola", "vin", "vann", "fanta", "solo", "agurkvann", "øl" ,"pepsi"};
 
         public string GetMenuItem()
         {
